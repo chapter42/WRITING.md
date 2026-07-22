@@ -5,7 +5,7 @@ Run only when required checks pass but a longer piece still feels regular, rushe
 - Paragraph spread: compare paragraph length, sentence count, and internal function. Change matching counts or arcs only when the uniformity is audible or templated; do not target a distribution.
 - Sentence spread: compare the shortest and longest sentences. When everything occupies the same medium band and the cadence is monotonous, carry a real relationship differently. Do not pad or chop for a numeric range.
 - Sentence architecture: combine close declaratives through coordination or subordination. Carry reference forward when every sentence starts fresh.
-- Punctuation: replace repeated em-dash, colon, or parenthetical roles with the syntax the relationship requires.
+- Punctuation: scan every em dash and keep only those allowed by the safeguards. Replace repeated colon or parenthetical roles with the syntax the relationship requires.
 - Lead: put answers and actions early in task-oriented text; attach early general claims to evidence in analysis or criticism.
 - Hidden lists: mark sentences listing three or more parallel items. If three or more sentences do list work, rewrite one around a single consequence, contrast, or example.
 - Questions: keep questions only when the piece investigates them or the reader should consider them.

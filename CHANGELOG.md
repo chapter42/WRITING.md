@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.4.1
+
+- Made zero em dashes the default for newly written prose across the full, compact, mini, and packaged rulesets; retained only explicit user preference, binding style-guide requirements, genuine interruption or sharp-turn clarity, and protected source text as exceptions.
+- Added operational safeguards against routine paired or paragraph-repeated em dashes, syntax-aware replacement guidance, a required pre-delivery scan, a long-form diagnostic, and a correction example, preventing mechanical period substitution from satisfying the rule.
+- Moved the detector-specific em-dash warning out of general safeguards and into provenance guidance, where it preserves the authorship caution without weakening ordinary drafting instructions; kept the full ruleset and packaged main/reference partition verbatim-equivalent.
+
 ## v1.4.0
 
 - Rewrote the full, compact, mini, packaged skill, and affected reference instructions in direct imperative form; removed rationale, reader-facing explanation, repetition, and descriptive padding while preserving rules, exceptions, thresholds, routing, and checks.

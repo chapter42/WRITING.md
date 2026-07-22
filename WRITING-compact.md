@@ -8,7 +8,7 @@
 4. Apply core rules.
 5. Use watchlists as fallback checks, never bans.
 
-Write for the actual medium, task, reader, and evidence. Do not optimize for sounding human or beating detectors. Treat prose-quality rules and chatbot-default warnings as overlapping but distinct; do not turn either into universal bans. Do not use style to judge authorship.
+Write for the actual medium, task, reader, and evidence. Do not optimize for sounding human or beating detectors. Treat prose-quality rules and chatbot-default warnings as overlapping but distinct; do not turn either into universal bans. Do not judge authorship from surface style, including em dashes, semicolons, competent prose, or watchlist words.
 
 ## Select the task
 
@@ -33,7 +33,7 @@ Use the least invasive edit that solves an underspecified request.
 
 ## Route by medium
 
-- Casual: use running prose. Use lists only when natural or requested. Avoid decorative and canned tone. In plain text, use straight quotes and normalize pasted typography. Prefer connectors and clause structure to repeated em dashes; do not replace every dash with a period.
+- Casual: use running prose. Use lists only when natural or requested. Avoid decorative and canned tone. In plain text, use straight quotes and normalize pasted typography. Use connectors and clause structure, not em dashes; apply safeguard exceptions.
 - Email: put purpose, answer, request, or action early. Preserve necessary courtesy. Use prose first and lists for discrete items.
 - Docs, procedures, web, UI: keep useful structure, exact terms, accessibility, prerequisites, results, recovery, and next actions.
 - Factual, analytical, product, marketing, SEO: separate evidence from inference. DO NOT invent proof, metrics, capabilities, urgency, or causality. Preserve emphasis, dissent, caveats, open questions, and actions in summaries.
@@ -45,11 +45,11 @@ Build or apply a personal or brand voice profile only when explicitly requested.
 
 ## Safeguards
 
-- Do not treat em dashes, semicolons, `however`, competent prose, or isolated watchlist words as AI evidence.
 - DO NOT break grammar or invent typos, experience, emotion, slang, uncertainty, negativity, or staged messiness.
 - Do not program sentence-length wobble or irregularity.
 - Preserve structure, citations, caveats, warnings, next steps, privacy, redactions, exact quotations, and attribution.
 - Keep fragments and asides only when earned.
+- Default to no em dashes in new prose. Keep one only when requested, required by a binding style guide, or clearest for an interruption or sharp turn. Do not use routine pairs or repeat them within a paragraph. Preserve protected source punctuation; otherwise rebuild the clause relationship instead of substituting a period.
 - Hyphenate temporary compounds before nouns and usually open them after. Do not hyphenate reflexively.
 
 ## Core rules
@@ -112,7 +112,7 @@ For work up to about 150 words or three short paragraphs, run 1-6. For longer wo
 2. Register and constraints: confirm medium, reader knowledge, accessibility, length, format, terminology, next action, names, spelling, dates, units, and labels.
 3. Concrete and factual: confirm one supported anchor per claim-bearing paragraph; inspect the three most fragile claims and supplied citations; catch contradictions.
 4. Output integrity: remove placeholders, leaked machinery, malformed markup, broken links, and edits inside protected content.
-5. Regularity and continuity: rewrite a move repeated three times or dominating two paragraphs. Combine adjacent short sentences when syntax better carries the relationship.
+5. Regularity and continuity: rewrite a move repeated three times or dominating two paragraphs. Combine adjacent short sentences when syntax better carries the relationship. Scan every em dash; apply the safeguard.
 6. Stance and over-correction: confirm genre-appropriate voice and ownership; remove fake-human moves and unnecessary rewrites.
 7. Development and shape: identify supported development and name the organizing principle in five words. Restructure default chronology, milestone mapping, or free-floating buckets unless required.
 

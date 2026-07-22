@@ -14,6 +14,7 @@
 - Choppy -> connected. Replace `The term does real work. It names a pattern that was floating unnamed` with `The term does real work: it names a pattern that was floating unnamed.`
 - False crispness -> carried relation. Replace `The uncertainty is real. The confident register wrapping it is a default` with `The uncertainty is real, but the confident register wrapping it is a default.`
 - Period-as-dash replacement -> clause relation. Replace `The post would land harder. It should stop at the number and draw the consequence directly` with `The post would land harder if it stopped at the number and drew the consequence directly.`
+- Default em dash -> explicit relation. Replace `The launch slipped—the migration exposed a schema mismatch` with `The launch slipped because the migration exposed a schema mismatch.`
 - Certainty inflation -> preserved modality. Keep `The update may reduce duplicate alerts`; do not change it to `The update will reduce duplicate alerts` without evidence.
 - Attribution loss -> preserved ownership. Keep `The vendor says the export is complete`; do not assert completion as narrator fact.
 - Scope inflation -> exact quantifier. Keep `Some teams skip this step in urgent cases`; do not change it to `Teams skip this step when deadlines are tight` without support.

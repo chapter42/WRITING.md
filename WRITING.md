@@ -47,7 +47,7 @@ When edit depth is unspecified, make the least invasive edit that solves the req
 
 ## Medium routing
 
-- Chat, comments, replies, DMs, forums: use running prose by default. Use lists only when natural or requested. Avoid decorative formatting and canned support tone. In plain text, prefer straight ASCII quotes and apostrophes. Normalize pasted typography when it does not fit; keep typographic quotes and ellipses when typeset or publication-facing prose calls for them. Prefer commas, colons, conjunctions, subordinate clauses, or full stops to repeated em dashes. Do not replace every dash with a period; carry the relationship when the thought continues.
+- Chat, comments, replies, DMs, forums: use running prose by default. Use lists only when natural or requested. Avoid decorative formatting and canned support tone. In plain text, prefer straight ASCII quotes and apostrophes. Normalize pasted typography when it does not fit; keep typographic quotes and ellipses when typeset or publication-facing prose calls for them. Use no em dashes by default. Apply the em-dash safeguards and use commas, colons, semicolons, parentheses, conjunctions, subordinate clauses, or full stops according to the relationship.
 - Email: put the purpose, decision, or request early. Use prose first between colleagues; use lists for discrete items, decisions, or actions. Preserve necessary courtesy. Do not pad with stock warmth or make sensitive messages abrasive for brevity.
 - Documents, specifications, reports, technical writing: use headings, bullets, tables, definitions, and sequence when they improve scanning or precision. Keep exact technical terms. Explain unfamiliar terms locally; do not replace them with weaker synonyms.
 - Procedures and reference: state prerequisites, inputs, ordered actions, expected results, and recovery steps when relevant. Keep commands, code, identifiers, paths, configuration keys, units, and parameter names exact. Do not turn steps into flowing prose for stylistic variety.
@@ -81,7 +81,6 @@ Before delivery, confirm stable voice, no caricature, no impersonation, and no l
 
 ## Non-negotiable safeguards
 
-- Do not treat em dashes, semicolons, `however`, competent punctuation, well-formed paragraphs, or watchlist words as AI evidence by themselves.
 - DO NOT fabricate typos, grammar errors, slang, profanity, first-person experience, feelings, memories, preferences, relationships, anecdotes, admissions, uncertainty, negativity, or staged messiness.
 - Do not force an `actually` turn or program sentence-length wobble. Vary syntax only when the relationship between thoughts requires it.
 - Preserve real uncertainty. Do not add uncertainty where evidence is firm or remove it for cleaner prose.
@@ -90,7 +89,8 @@ Before delivery, confirm stable voice, no caricature, no impersonation, and no l
 - Preserve quotation integrity. Keep direct quotes exact and visibly quoted. Do not create composite quotes, silently repair quotations, or use ellipses to change force.
 - Paraphrase in genuinely new language without strengthening the claim. Do not pass distinctive third-party wording off as original.
 - Keep fragments, asides, repetition, abrupt turns, or unresolved tension only when the thought produces them. Do not add irregularity by recipe.
-- Treat repeated mismatch as the problem, not a single mark. Use em dashes where they belong, not as the default connective. Do not replace every dash with a period.
+- Default to no em dashes in newly written prose. Use one only when the user requests that style, a binding style guide requires it, or it is the clearest punctuation for a genuine interruption or sharp turn. Do not use paired em dashes as routine parentheses or repeat em dashes across a paragraph.
+- Preserve em dashes inside quotations, code, required text, and other protected source material. Elsewhere, replace an unnecessary em dash with the punctuation or syntax that expresses the relationship: a comma, colon, semicolon, parentheses, conjunction, subordinate clause, or full stop. Do not replace every dash with a period or erase the relationship between clauses.
 - For temporary compounds, hyphenate before the noun and usually open after it. Do not hyphenate reflexively.
 
 ## Core rules
@@ -262,7 +262,7 @@ For work up to about 150 words or three short paragraphs, run checks 1-8, 10, 13
 5. Fact discipline: inspect the three most fragile claims. Verify dates, milestones, quotes, paraphrases, metrics, future claims, causality, labels, motives, hidden mechanisms, and vague authorities. Confirm citations support exact claims. Catch internal contradictions.
 6. Source fit: check every quote, close paraphrase, metric, future event, and causal claim. Keep `X caused Y`, `X drove Y`, `X proved Y`, and `X tracked with Y` only when the source supports that relationship. Preserve ownership and use weaker relationship language only when accurate.
 7. Output integrity: search for placeholders, leaked machinery, malformed markup, broken links, tracking, duplicate headings, and edits inside protected content.
-8. Regularity and continuity: name the most repeated visible move. If it appears three or more times or dominates two consecutive paragraphs, rewrite one occurrence. Combine neighboring short sentences when syntax better carries the relationship; keep useful pauses.
+8. Regularity and continuity: name the most repeated visible move. If it appears three or more times or dominates two consecutive paragraphs, rewrite one occurrence. Combine neighboring short sentences when syntax better carries the relationship; keep useful pauses. Scan every em dash. Keep one only when a safeguard exception applies; otherwise reconstruct the relationship with other punctuation or syntax.
 9. Repeated frame: inspect recurring metaphors, contrasts, questions, and wording families. Keep only recurrences that add force or change the argument.
 10. Stance and voice: state the writer's view in one sentence when the genre expects one; add stance only where it does real work. Keep neutral genres neutral. If voice calibration was requested, confirm consistency, no caricature, and no content leakage.
 11. Developed thought: in work longer than four paragraphs, identify a supported example, detail, qualification, or real doubling-back that prevents a pre-solved route.
@@ -279,7 +279,7 @@ Run only when required checks pass but a longer piece still feels regular, rushe
 - Paragraph spread: compare paragraph length, sentence count, and internal function. Change matching counts or arcs only when the uniformity is audible or templated; do not target a distribution.
 - Sentence spread: compare the shortest and longest sentences. When everything occupies the same medium band and the cadence is monotonous, carry a real relationship differently. Do not pad or chop for a numeric range.
 - Sentence architecture: combine close declaratives through coordination or subordination. Carry reference forward when every sentence starts fresh.
-- Punctuation: replace repeated em-dash, colon, or parenthetical roles with the syntax the relationship requires.
+- Punctuation: scan every em dash and keep only those allowed by the safeguards. Replace repeated colon or parenthetical roles with the syntax the relationship requires.
 - Lead: put answers and actions early in task-oriented text; attach early general claims to evidence in analysis or criticism.
 - Hidden lists: mark sentences listing three or more parallel items. If three or more sentences do list work, rewrite one around a single consequence, contrast, or example.
 - Questions: keep questions only when the piece investigates them or the reader should consider them.
@@ -311,6 +311,7 @@ Treat these as fallback diagnostics, not targets.
 - Choppy -> connected. Replace `The term does real work. It names a pattern that was floating unnamed` with `The term does real work: it names a pattern that was floating unnamed.`
 - False crispness -> carried relation. Replace `The uncertainty is real. The confident register wrapping it is a default` with `The uncertainty is real, but the confident register wrapping it is a default.`
 - Period-as-dash replacement -> clause relation. Replace `The post would land harder. It should stop at the number and draw the consequence directly` with `The post would land harder if it stopped at the number and drew the consequence directly.`
+- Default em dash -> explicit relation. Replace `The launch slipped—the migration exposed a schema mismatch` with `The launch slipped because the migration exposed a schema mismatch.`
 - Certainty inflation -> preserved modality. Keep `The update may reduce duplicate alerts`; do not change it to `The update will reduce duplicate alerts` without evidence.
 - Attribution loss -> preserved ownership. Keep `The vendor says the export is complete`; do not assert completion as narrator fact.
 - Scope inflation -> exact quantifier. Keep `Some teams skip this step in urgent cases`; do not change it to `Teams skip this step when deadlines are tight` without support.
@@ -405,4 +406,4 @@ Use only when exact: `delve into`, `tapestry`, `realm`, `leverage`, `harness`, `
 
 ## Provenance for authorship claims
 
-Use draft history, revision history, supporting citations, notes, outlines, source traces, and disclosed AI use for authorship claims. Use surface-style checks only to improve prose.
+Use draft history, revision history, supporting citations, notes, outlines, source traces, and disclosed AI use for authorship claims. Do not treat em dashes, semicolons, `however`, competent punctuation, well-formed paragraphs, or watchlist words as authorship evidence by themselves. Use surface-style checks only to improve prose.

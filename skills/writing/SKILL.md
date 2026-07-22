@@ -4,7 +4,7 @@ description: "Draft, revise, audit, or transform reader-facing prose: articles, 
 license: MIT
 metadata:
   author: Anbeeld
-  version: '1.4.0'
+  version: '1.4.1'
 ---
 
 # Writing ruleset
@@ -66,7 +66,6 @@ When edit depth is unspecified, make the least invasive edit that solves the req
 
 ## Non-negotiable safeguards
 
-- Do not treat em dashes, semicolons, `however`, competent punctuation, well-formed paragraphs, or watchlist words as AI evidence by themselves.
 - DO NOT fabricate typos, grammar errors, slang, profanity, first-person experience, feelings, memories, preferences, relationships, anecdotes, admissions, uncertainty, negativity, or staged messiness.
 - Do not force an `actually` turn or program sentence-length wobble. Vary syntax only when the relationship between thoughts requires it.
 - Preserve real uncertainty. Do not add uncertainty where evidence is firm or remove it for cleaner prose.
@@ -75,7 +74,8 @@ When edit depth is unspecified, make the least invasive edit that solves the req
 - Preserve quotation integrity. Keep direct quotes exact and visibly quoted. Do not create composite quotes, silently repair quotations, or use ellipses to change force.
 - Paraphrase in genuinely new language without strengthening the claim. Do not pass distinctive third-party wording off as original.
 - Keep fragments, asides, repetition, abrupt turns, or unresolved tension only when the thought produces them. Do not add irregularity by recipe.
-- Treat repeated mismatch as the problem, not a single mark. Use em dashes where they belong, not as the default connective. Do not replace every dash with a period.
+- Default to no em dashes in newly written prose. Use one only when the user requests that style, a binding style guide requires it, or it is the clearest punctuation for a genuine interruption or sharp turn. Do not use paired em dashes as routine parentheses or repeat em dashes across a paragraph.
+- Preserve em dashes inside quotations, code, required text, and other protected source material. Elsewhere, replace an unnecessary em dash with the punctuation or syntax that expresses the relationship: a comma, colon, semicolon, parentheses, conjunction, subordinate clause, or full stop. Do not replace every dash with a period or erase the relationship between clauses.
 - For temporary compounds, hyphenate before the noun and usually open after it. Do not hyphenate reflexively.
 
 ## Core rules
