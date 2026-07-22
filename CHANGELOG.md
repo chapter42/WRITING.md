@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.4.0
+
+- Rewrote the full, compact, mini, packaged skill, and affected reference instructions in direct imperative form; removed rationale, reader-facing explanation, repetition, and descriptive padding while preserving rules, exceptions, thresholds, routing, and checks.
+- Completed clause-level old/new parity audits across every version; restored compressed recognition examples, exceptions, preservation fields, diagnostic thresholds, punctuation, email formatting, specificity, causality, hyphenation, inclusive language, reasoning, development, structural alternatives, and correction guidance.
+- Expanded the full ruleset with explicit task-mode selection, least-invasive editing, reader-knowledge calibration, broader medium routing, and clean delivery while preserving its existing core.
+- Added optional personal and brand voice calibration that activates only when explicitly requested; it separates stable habits from topic or mood, prevents caricature and biography leakage, and does not license flattening an existing draft's useful voice.
+- Added meaning-preservation discipline for scope, negation, certainty, conditions, chronology, causality, attribution, exact terms, links, redactions, code, and structure, with safeguards against silent factual repairs and unnecessary rewrites.
+- Added output-integrity, privacy, quotation, supplied-fact, summary, application, script, localization, marketing-proof, and high-stakes writing guidance.
+- Strengthened regularity and structure guidance for hollow Q&A hooks, false ranges, cosmetic balance, recap framing, synthetic fragments, invented digressions, and modular structures that are appropriate for reference material but weak in developmental prose.
+- Expanded required checks, correction examples, and optional diagnostics; made count-based diagnostics conditional so they do not manufacture variation.
+- Rebuilt the packaged writing skill as a lossless partition of the full ruleset. `SKILL.md` keeps the objective, precedence, task workflow, safeguards, and core rules; directly routed references preserve the exact medium, voice, output, check, diagnostic, correction, watchlist, and provenance sections.
+- Reworked the compact version with the new task, preservation, voice, factual, and output safeguards while keeping it under 1,500 words.
+- Updated the mini version while preserving its one-screen, eight-bullet architecture and battle-tested high-density cues, adding opt-in voice matching and meaning preservation without forcing byte-level compression.
+- Completed final parity cleanup: restored the mini ruleset's context instruction; preserved the packaged skill's MIT license, author, version metadata, exact thresholds, and recognition cues; removed duplicated wording; and placed every full-ruleset section verbatim in one package destination with routing matched to its applicability.
+
 ## v1.3.1
 
 - Rule 10 false-crispness paragraph trimmed to cross-reference rule 6 (was duplicating definition and guidance).

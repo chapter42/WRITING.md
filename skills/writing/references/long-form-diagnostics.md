@@ -1,16 +1,22 @@
-# Optional long-form diagnostics
+## Optional long-form diagnostics
 
-Use these only when the required checks are not enough for a longer piece.
-- Paragraph spread. Count sentences in each paragraph. If nearly all land at the same count, vary one.
-- Sentence spread. Compare the shortest and longest sentences. If everything sits in the same medium band, vary one.
-- Sentence architecture audit. Look at sentence types, not only length. If most sentences are simple declaratives, combine one pair of close thoughts with coordination or subordination. If every sentence starts fresh instead of carrying reference forward, revise one sentence so it begins from the previous thought and ends with the new one.
-- Punctuation audit. If em dashes, colons, or parentheticals keep doing the same job, swap some for commas or full stops.
-- Lead audit. In web, docs, email, or task-oriented text, is the answer or requested action visible early? In analysis or criticism, is the first general claim tied to concrete evidence soon enough?
-- Hidden-list audit. Count sentences whose main work is listing three or more parallel items. If three or more sentences do list work, rewrite at least one around a single consequence, contrast, or example.
-- Causality audit. Mark every sentence claiming that one thing caused, proved, drove, enabled, prevented, or explained another. If the evidence only supports sequence or correlation, weaken the relationship.
-- Motif audit. If the same image, opposition, or repeated wording carries the piece, remove at least one instance unless each recurrence changes the argument.
-- Cadence check. Re-read one paragraph slowly. If it sounds like a press release, investor memo, or encyclopedia entry, flatten it.
-- Catalog audit. If one paragraph names three or more terms, features, or labels from the same milestone, or jumps through multiple milestones in short order, rewrite around one consequence instead.
-- Bucket audit. If you can label each paragraph with a clean category heading and those labels barely overlap, the piece is too modular. Cross-wire at least one paragraph.
+Run only when required checks pass but a longer piece still feels regular, rushed, or modular.
 
-These are fallback heuristics, not targets to optimize for.
+- Paragraph spread: compare paragraph length, sentence count, and internal function. Change matching counts or arcs only when the uniformity is audible or templated; do not target a distribution.
+- Sentence spread: compare the shortest and longest sentences. When everything occupies the same medium band and the cadence is monotonous, carry a real relationship differently. Do not pad or chop for a numeric range.
+- Sentence architecture: combine close declaratives through coordination or subordination. Carry reference forward when every sentence starts fresh.
+- Punctuation: replace repeated em-dash, colon, or parenthetical roles with the syntax the relationship requires.
+- Lead: put answers and actions early in task-oriented text; attach early general claims to evidence in analysis or criticism.
+- Hidden lists: mark sentences listing three or more parallel items. If three or more sentences do list work, rewrite one around a single consequence, contrast, or example.
+- Questions: keep questions only when the piece investigates them or the reader should consider them.
+- Balance: remove automatic symmetry when evidence is lopsided.
+- Causality: mark `caused`, `proved`, `drove`, `enabled`, `prevented`, and `explained`; weaken unsupported relationships.
+- Preservation: compare numbers, negation, modality, attribution, chronology, conditions, and exceptions sentence by sentence.
+- Reader knowledge: inspect acronyms, terms of art, references, and analogies. Explain only what this reader needs. Verify analogies preserve the relevant mechanism.
+- Information gain: cut or combine paragraphs that only restate earlier material, except deliberate summaries, reference entries, and repeated safety instructions.
+- Motif: remove repeated images, oppositions, or wording unless each return changes the argument.
+- Cadence: flatten press-release, investor-memo, or encyclopedia cadence when the medium does not require it.
+- Catalog: when one paragraph names three or more related terms, features, or labels, or jumps through milestones in short order, rewrite around one consequence.
+- Buckets: when each paragraph takes a clean category label and the labels barely overlap, cross-wire at least one paragraph unless independent scanning is the point.
+
+Treat these as fallback diagnostics, not targets.

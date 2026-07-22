@@ -10,9 +10,11 @@ The rules combine writing standards, web readability research, documentation gui
 
 - Starts with context: medium, audience, reader need, and the job of the text.
 - Calibrates voice to genre. Opinion pieces can sound like a person; summaries and docs stay neutral.
+- Calibrates a personal or brand voice only when explicitly requested, without importing biography or caricaturing surface quirks.
 - Keeps the format appropriate. Docs stay scannable; casual replies do not get over-structured. Does not remove useful structure just to look less templated.
 - Replaces polished generality with concrete anchors. If a paragraph has no checkable detail, it gets revised.
 - Guards against fake specificity. Quotes, numbers, dates, causal claims, and named claims need support.
+- Preserves meaning during edits: scope, uncertainty, attribution, conditions, exact terms, links, and redactions do not drift just because a sentence gets smoother.
 - Breaks the patterns that make model prose look templated: repeated cadence, hidden lists, generic signposts, and too-neat paragraph shapes.
 - Prefers ordinary words over inflated phrasing. Allows repetition when the ordinary word is the right one.
 - Cuts the staged parts: keynote cadence, service-desk tone, ceremonial openings, and filler closings.
@@ -23,7 +25,7 @@ The rules combine writing standards, web readability research, documentation gui
 
 ### 1. Manually as direct instructions
 
-Give [the ruleset](WRITING.md) to an AI and tell it to follow every rule strictly. The explicit instructions (~4400 words) compensate for habits the model would otherwise default to: regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, and many others.
+Give [the ruleset](WRITING.md) to an AI and tell it to apply the rules with their stated precedence and medium routing. The high-density instructions (~5400 words) counter regular sentence structure, generic phrasing, parallel enumeration, overly neat conclusions, meaning drift during editing, and other model defaults.
 
 One pattern that works well: ask for a first draft with the rules applied, then request an audit of that draft against the required checks, and have the model rewrite based on what the audit caught. Repeat one or two more times if the text is on a larger side. Further rewrites after that usually circulate around the same model-level limitations.
 
@@ -40,15 +42,15 @@ Use the packaged skill in [/skills/writing](skills/writing) with tools that supp
 - **Cursor:** `~/.cursor/skills/`
 - **OpenCode:** `~/.config/opencode/skills/`
 
-The skill description is scoped to public-facing prose, like blog posts, articles, documentation, criticism, long-form, emails, marketing, SEO copy, or UI text. It explicitly excludes code comments, commit messages, and private notes.
+The skill description is scoped to reader-facing prose, including articles, blogs, documentation, criticism, long-form, email, marketing and SEO copy, summaries, scripts, applications, and UI text. It explicitly excludes code comments, commit messages, and private notes.
 
 ### 3. Compact as agent/chat instructions
 
-[WRITING-compact.md](WRITING-compact.md) is the same rules at ~1200 words. Use as AGENTS.md or CLAUDE.md for writing agents, or as instructions in custom chats like GPTs and Gemini Gems. Cuts examples, long-form diagnostics, and provenance; keeps every behavior-changing rule, required check, and the watchlist.
+[WRITING-compact.md](WRITING-compact.md) is the same rules at ~1400 words. Use as AGENTS.md or CLAUDE.md for writing agents, or as instructions in custom chats like GPTs and Gemini Gems. It keeps the core behavior, required checks, and a compressed watchlist while omitting full examples and diagnostics.
 
 ### 4. Mini as a section in AGENTS.md
 
-[WRITING-mini.md](WRITING-mini.md) is ~240 words, fits on one screen. All ten concepts compressed to bullet-pointed aphorisms. Designed to embed as a persistent section in global AGENTS.md or CLAUDE.md so the rules are always in context without dominating it.
+[WRITING-mini.md](WRITING-mini.md) is ~280 words and fits on one screen. The highest-impact behavior is compressed into eight imperative bullets. It is designed for a persistent section in global AGENTS.md or CLAUDE.md, where the rules stay present without dominating context.
 
 ## See also
 

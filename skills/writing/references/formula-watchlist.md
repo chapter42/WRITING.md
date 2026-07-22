@@ -1,64 +1,80 @@
-# Formula watchlist
+## Watchlist
 
-These are not bans. They are quick places to scan when default LLM writing slips into formula.
+Scrutinize repeated fallback, not isolated use.
 
-## Formula phrases and sentence moves to scrutinize
+### Formula and sentence moves
 
-- `It's important to note that`
-- `It's worth noting that`
-- `When it comes to`
-- `In conclusion`
-- `in today's fast-paced world`
-- `ever-evolving landscape`
-- `at the end of the day`
-- `dive deep into`
-- `embark on a journey`
-- `navigate` used as a vague metaphor
-- `It's not X, it's Y`
-- `Not because X, but because Y`
-- `What matters is...`
-- `The real issue is...`
-- `This is not just..., it is...`
-- `is a testament to`
-- `serves as` / `stands as` when `is` or `has` would be clearer
+- `It's important to note that` / `It's worth noting that`
+- `When it comes to` / `In conclusion`
+- `in today's fast-paced world` / `ever-evolving landscape` / `at the end of the day`
+- `Let's explore` / `Let's dive in` / `Picture this` / `But here's the thing`
+- `The catch?` / `The surprising part?` / `The answer is simple`
+- `This raises important questions` / `At its core` / `The key takeaway is`
+- `Whether you're X or Y`
+- false `From X to Y` ranges such as `from strategy to execution` or `from startups to global enterprises`
+- automatic `On the one hand... on the other hand...` balance
+- empty X-is-that wrappers such as `The reality is that` or `The point is that`
+- `called` before familiar nouns or processes (`a method called testing`)
+- `dive deep into` / `embark on a journey` / vague `navigate`
+- `It's not X, it's Y` / `Not because X, but because Y`
+- `What matters is...` / `The real issue is...` / `This is not just..., it is...`
+- `is a testament to` / `serves as` / `stands as` when `is` or `has` is clearer
 - `plays a key role` / `plays a pivotal role`
-- `reflects broader`, `symbolizes`, `showcases`, `highlights`, or `underscores` when attached to generic significance rather than evidence
-- vague source laundering: `experts say`, `observers note`, `research suggests`, `critics argue`, `many believe`
-- unsupported causality: `drove`, `proved`, `showed that`, `made clear that`, `tracked with`, `led directly to`
+- generic significance through `reflects broader`, `symbolizes`, `showcases`, `highlights`, or `underscores`
+- unnamed authority (`experts say`, `observers note`, `research suggests`, `critics argue`, `many believe`)
+- unsupported causality (`drove`, `proved`, `showed that`, `made clear that`, `tracked with`, `led directly to`)
 - `X today is not the X it was at the start`
-- `found its feet` / `found its identity`
-- `proof of concept`
-- paragraph-closing type definitions (`the kind of X where Y`)
-- persuasive three-part cadence or triadic rhythm used by reflex (`clearer, faster, cheaper`)
-- one-thought-per-sentence strings where adjacent claims should be coordinated or subordinated
-- fake-human hedge chains (`I think... maybe... sort of`) when the uncertainty is not real
-- forced register lowering or inserted slang
-- decorative emoji and checkmark bullets in prose contexts
-- generic-to-the-platform replies that reference nothing specific to the actual conversation
+- `found its feet` / `found its identity` / `proof of concept`
+- unsupported upbeat turns after `despite these challenges`
+- `poised to`, `set to transform`, or `the future remains` without a forecast
+- generic `challenges and opportunities`, `benefits and limitations`, or `pros and cons` symmetry
+- paragraph-closing type definitions
+- reflexive three-part cadence (`clearer, faster, cheaper`)
+- synthetic fragment punch (`The result? More control. Less friction. Better outcomes.`)
+- recap or `takeaway` endings
+- rhetorical questions answered immediately
+- repeated topic-reset openings
+- one-thought-per-sentence strings
+- fake-human hedge chains (`I think... maybe... sort of`)
+- forced slang, decorative emoji, checkmark bullets, and generic-to-platform replies
 
-## Jargon defaults to scrutinize
+### Jargon defaults
 
-Use only when they are plainly the right words, not because the model fell into them:
-`delve into`, `tapestry`, `realm`, `leverage`, `harness`, `foster`, `empower`, `unlock`, `unveil`, `vibrant`, `crucial`, `pivotal`, `compelling`, `robust`, `seamless`, `holistic`, `multifaceted`, `paradigm-shifting`, `underscore`, `testament`, `valuable insights`, `rich`, `profound`, `enhance`, `showcase`, `boast` / `boasts`, `ever-changing`, `ever-evolving`, `ever-growing`
+Use only when exact: `delve into`, `tapestry`, `realm`, `leverage`, `harness`, `foster`, `empower`, `unlock`, `unveil`, `vibrant`, `crucial`, `pivotal`, `compelling`, `robust`, `seamless`, `holistic`, `multifaceted`, `paradigm-shifting`, `underscore`, `testament`, `valuable insights`, `rich`, `profound`, `enhance`, `showcase`, `boast`, `ever-changing`, `ever-evolving`, `ever-growing`.
 
-The problem is repeated fallback diction, not the existence of any one word.
+### Editing distortions
 
-## Formatting artifacts in plain text to scrutinize
+- certainty changes without evidence (`may` to `will`, `is` to `might be`)
+- scope expansion or contraction (`some` to `most`, `often` to `always`, `in this sample` to `in general`)
+- lost negation, conditions, exceptions, comparisons, or qualifiers
+- sequence converted to cause or absence of evidence converted to proof
+- detached attribution
+- reported views or experience converted to narrator claims
+- exact terms replaced by weaker approximations
+- dialect, second-language features, repetition, or plainness normalized into prestige prose
+- every sentence regularized to one cadence, length, polish, or formality
 
-- smart quotes and curly apostrophes
-- single-character ellipses
-- other visible copy-paste formatting artifacts that do not fit the medium
+### Structural defaults
 
-## Compound-modifier hyphenation to scrutinize
+- forced introduction-body-conclusion framing
+- one paragraph per feature, date, stakeholder, benefit, or stage
+- complete-looking taxonomies built from partial evidence
+- equal space for unequal sides
+- generic future-looking endings
+- repeated micro-sections with weak prose
+- bullets that avoid relationships or paragraphs that obscure ordered steps
+- summaries that introduce a claim, recommendation, caveat, or evidence; flatten disagreement; promote a side point into the conclusion; or make an open question sound resolved
 
-LLMs often flatten compound-modifier hyphenation into a single reflex: if two words act like a modifier, insert a hyphen. Human usage is more positional and more relaxed.
+### Formatting and delivery artifacts
 
-For temporary compounds, hyphenate before the noun: `a well-known author`, `a high-quality service`, `a long-term plan`. After the noun, often after a linking verb, usually open the compound: `The author is well known`, `The service is high quality`, `The plan is long term`.
+- smart quotes, curly apostrophes, single-character ellipses, and copied typography that does not fit the medium
+- raw interface or citation tokens
+- malformed links, empty footnotes, broken fences, and unauthorized placeholders
 
-Watch for:
-- predicative over-hyphenation: `is well-known`, `seems high-quality`, `became long-term`
-- `-ly` adverb compounds: `highly-qualified`, `newly-designed`, `statistically-significant`
-- reflexive `ever-` compounds: `ever-changing`, `ever-evolving`, `ever-growing`
-- set phrases where the hyphen adds nothing: `high school`, `ice cream`, `real estate`
+### Compound hyphenation
 
-Do not strip all hyphens. Keep them when they prevent ambiguity, when the compound precedes the noun, or when the term is conventionally hyphenated: `state-of-the-art`, `cost-effective`, `user-friendly`. The problem is the reflex, not the mark.
+- Hyphenate temporary compounds before nouns when needed: `a well-known author`, `a high-quality service`, `a long-term plan`.
+- Usually open the same compounds after linking verbs: `The author is well known`, `The service is high quality`, `The plan is long term`.
+- Do not hyphenate `-ly` adverb compounds (`highly-qualified`, `newly-designed`, `statistically-significant`), predicative phrases (`is well-known`, `seems high-quality`, `became long-term`), reflexive `ever-` phrases, or set phrases (`high school`, `ice cream`, `real estate`) by default.
+- Keep conventional and ambiguity-preventing hyphens such as `state-of-the-art`, `cost-effective`, and `user-friendly`.
+- Follow the requested English variety, technical usage, house style, and current dictionary when exceptions matter.
